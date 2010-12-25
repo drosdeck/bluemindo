@@ -12,7 +12,7 @@ URL:            http://codingteam.net/project/bluemindo
 License:	GPLv3
 Group:          Sound
 Requires:	pygtk2.0 
-Requires:	pygtk2.0-libgalde
+Requires:	pygtk2.0-libglade
 Requires:	gstreamer0.10-python
 Requires:	python-tagpy
 Requires:	dbus-python
