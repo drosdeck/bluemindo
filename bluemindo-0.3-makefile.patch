@@ -1,0 +1,11 @@
+--- bluemindo-0.3/Makefile.orig	2009-11-26 18:29:16.000000000 +0100
++++ bluemindo-0.3/Makefile	2009-11-26 18:29:30.000000000 +0100
+@@ -12,7 +12,7 @@
+ 
+ 
+ install:
+-	install -d $(LOCALEDIR) $(BIN) $(DATADIR)/bluemindo $(DATADIR)/bluemindo/image $(DATADIR)/bluemindo/glade $(DATADIR)/bluemindo/src
++	install -d $(LOCALEDIR) $(BIN) $(DATADIR)/applications $(DATADIR)/bluemindo $(DATADIR)/bluemindo/image $(DATADIR)/bluemindo/glade $(DATADIR)/bluemindo/src $(DATADIR)/pixmaps $(MANDIR)/man1
+ 
+ 	install -m644 data/image/*.png $(DATADIR)/bluemindo/image
+ 	install -m644 data/glade/*.glade $(DATADIR)/bluemindo/glade
