@@ -49,3 +49,17 @@ rm -rf %{buildroot}
 %{_datadir}/applications/Bluemindo.desktop
 %{_datadir}/pixmaps/%{name}.png
 %{_mandir}/man1/%{name}.*
+
+
+%changelog
+* Sat Dec 25 2010 Yuri Myasoedov <omerta13@mandriva.org> 0.3-2mdv2011.0
++ Revision: 625104
+- Fixed typo error in "Requires" section
+- Fixed typo error in "Requires" section
+
+* Sun Dec 05 2010 Yuri Myasoedov <omerta13@mandriva.org> 0.3-1mdv2011.0
++ Revision: 610850
+- Fixed define section
+- Fixed %%mkrel macro
+- import bluemindo
+
