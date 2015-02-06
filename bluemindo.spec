@@ -1,6 +1,6 @@
 %define name    bluemindo
 %define version 0.3
-%define release %mkrel 2
+%define release 3
 
 Name:           %{name}
 Summary:        Simple audio player in Python/PyGTK, using GStreamer
