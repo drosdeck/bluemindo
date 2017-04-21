@@ -15,7 +15,7 @@ Requires:	pygtk2.0
 Requires:	pygtk2.0-libglade
 Requires:	gstreamer0.10-python
 Requires:	python-tagpy
-Requires:	dbus-python
+Requires:	python-dbus
 Requires:	gnome-python-extras
 Requires:	python-notify
 Requires:	python-xmpp
